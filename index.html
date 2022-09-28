@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSIT4F DATA TABLE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+</head>
+
+
+<style>
+body {
+  background-color: whitesmoke;
+  color: blue;
+}
+h1 {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+table,th,td
+    {
+      border:4px solid darkslategray;
+    }
+    td
+    {
+      height:10px;
+    }
+    tr
+    {
+      background-color:lightblue;
+      color:black;
+    }
+    th
+    {
+      color:black;
+    }
+  </style>
+
+<body>
+    <h1>BSIT-4F DATA TABLE</h1>
+    <div class="container py-2"> 
+        <div class="row">
+            <table id="data-table" class="table table-striped" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Student Number</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>Year</th>
+                        <th>Section</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>201812345</td>
+                        <td>Abdulwahid Asgar</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201810124</td>
+                        <td>Erica Mae Brosas</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201897775</td>
+                        <td>Sova Sage</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201811244</td>
+                        <td>Marcus Zobel A. Franco</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201816343</td>
+                        <td>Rafael Palma</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201816523</td>
+                        <td>Stephen Torres</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201813222</td>
+                        <td>Alyssa Ashley Mae Adal</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201851231</td>
+                        <td>Kurt Juluis Medina</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201863245</td>
+                        <td>Joseph Rey Tolentino</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201867896</td>
+                        <td>Mark Jerry Asarez</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201812421</td>
+                        <td>Mario Eugino Columbretes</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201823213</td>
+                        <td>Carlos Jimwell Aquino</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201852131</td>
+                        <td>Ester Grace C. Lipke</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201842131</td>
+                        <td>Ma. Eula Faith Jalandoni</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201876554</td>
+                        <td>Kurt Santiguel</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201853453</td>
+                        <td>Ronel Banda</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201856754</td>
+                        <td>John Patrick Solis</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201856753</td>
+                        <td>Kenneth Cairme</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201812315</td>
+                        <td>Kristin Joy Dara Tagaloguin</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201834533</td>
+                        <td>Joanna Marie</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+
+                        <td>201833453</td>
+                        <td>Reyna Raze</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>201858654</td>
+                        <td>Iris Joyce Oubasan</td>
+                        <td>BSIT</td>
+                        <td>4TH</td>
+                        <td>F</td>
+                        <td>22</td>
+                    </tr>
+                    
+                </tbody>
+               
+            </table>
+        </div>
+        
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+
+<script src="./js/main.js"></script>
+    
+</body>
+</html>
